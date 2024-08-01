@@ -5,22 +5,6 @@ export default function EProjact() {
     const [ index,setIndex ] = useState (0);
     const [ sctList, setSctList ] = useState ( sculptureList );
 
-    function handleClickNext(){
-        if (index + 1 <= sculptureList.length) {
-            setIndex(index + 1);
-        } else {
-            setIndex(0);
-        }
-    }
-
-    function handleClickBack() {
-        if (index - 1 >= 0) {
-            setIndex(index - 1); 
-        } else {
-            setIndex(sculptureList.length - 1);
-        }
-    }
-
     let sculpture = sculptureList[index];
 
     return (

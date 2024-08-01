@@ -1,0 +1,61 @@
+/* stylesCard.css */
+
+/* กำหนดสีที่ใช้ในธีมฟ้า */
+:root {
+    --light-blue: #E0F7FA; /* ฟ้าพาสเทล */
+    --dark-blue: #00796B;  /* ฟ้าสีน้ำเงินเข้ม */
+    --blue-border: #80DEEA; /* ฟ้าสีน้ำเงินอ่อนสำหรับกรอบ */
+}
+
+/* ปรับแต่งพื้นหลังของ container หลัก */
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
+/* ปรับแต่งสีของข้อความใน h1 */
+.custom-header {
+    color: var(--dark-blue); /* สีข้อความ */
+    background-color: var(--light-blue); /* สีพื้นหลัง */
+    border: 4px solid var(--blue-border); /* กรอบ */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* ปรับสีของปุ่มที่ใช้สีฟ้า */
+.bg-pastel-blue {
+    background-color: #80DEEA; /* ฟ้าพาสเทล */
+}
+
+.bg-pastel-blue:hover {
+    background-color: var(--dark-blue); /* เปลี่ยนสีเมื่อ hover */
+}
+
+/* ปรับแต่งหัวตาราง */
+.bg-light-blue-thead {
+    background-color: var(--light-blue);
+}
+
+/* ปรับแต่งข้อความในหัวตาราง */
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+
+/* ปรับสีกรอบปุ่ม */
+.bg-blue-500 {
+    background-color: #0288D1; /* ฟ้าสีน้ำเงิน */
+}
+
+.bg-blue-500:hover {
+    background-color: #0277BD; /* เปลี่ยนสีเมื่อ hover */
+}
+
+/* ปรับแต่งสีของปุ่มใน modal */
+.bg-red-500 {
+    background-color: #FF5252; /* สีแดง */
+}
+
+.bg-red-500:hover {
+    background-color: #FF1744; /* เปลี่ยนสีเมื่อ hover */
+}
